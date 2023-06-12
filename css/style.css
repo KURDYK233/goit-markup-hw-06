@@ -586,7 +586,7 @@ color: #FFFFFF;
 }
 
 .footer-form-svg {
-    fill: currentColor;
+    fill: #FFFFFF;
     
 }
 
@@ -929,7 +929,16 @@ margin-bottom: 16px;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
-margin-bottom: 8px;
+
+padding-left: 38px;
+}
+
+.modal-field {
+    margin-bottom: 8px;
+}
+
+.name-wrap {
+    position: relative;
 }
 
 .modal-label {
@@ -943,6 +952,25 @@ color: #8E8F99;
 .modal-label span {
     display: block;
     margin-bottom: 4px;
+}
+
+.phone-wrap {
+    position: relative;
+}
+
+.modal-icon {
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.modal-input:focus .modal-icon {
+    color: #4D5AE5;
+}
+
+.email-wrap {
+    position: relative;
 }
 
 .modal-text-area {
