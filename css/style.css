@@ -985,17 +985,10 @@ margin-bottom: 4px;
     fill: currentColor;
 }
 
-.modal-input:focus {
+.modal-input:focus + .modal-icon {
     border-color: #404bbf;
+    fill: #404bbf;
 }
-
-.modal-icon:focus  {
-fill: #404bbf;
-}
-
-
-
-
 
 .modal-text-area {
     font-weight: 400;
@@ -1050,7 +1043,7 @@ color: var(--text-label);
     margin-right: 8px;
 }
 
- .modal-checkbox:checked + .modal-label-checkbox span {
+ .modal-checkbox:checked + .modal-label-checkbox .modal-span {
     background-color: var(--hover-color);
     border: none;
    fill: #FFFFFF;
@@ -1069,8 +1062,6 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 color: var(--text-label); 
 }
-
-
 
 .modal-text-area::placeholder {
     
