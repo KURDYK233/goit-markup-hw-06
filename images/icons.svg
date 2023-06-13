@@ -95,6 +95,9 @@
     <symbol id="icon-Frame-3-3" viewBox="0 0 32 32">
       <path d="m32 2.667-32 15 10.227 3.156L26 8.5 14.002 21.988l.01.003-.012-.003v7.345l5.735-5.576L27 25.999l5-23.333z"/>
     </symbol>
+    <symbol id="icon-Property-1Default-3-1" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M4 1h24c1.657 0 3 1.343 3 3v24c0 1.657-1.343 3-3 3h-24c-1.657 0-3-1.343-3-3v-24c0-1.657 1.343-3 3-3z"></path>
+</symbol>
 </defs>
 </svg>
 
