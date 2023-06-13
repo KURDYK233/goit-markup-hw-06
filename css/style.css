@@ -985,10 +985,6 @@ margin-bottom: 4px;
     fill: currentColor;
 }
 
-.modal-input:focus + .modal-icon {
-    border-color: #404bbf;
-    fill: #404bbf;
-}
 
 .modal-text-area {
     font-weight: 400;
@@ -1046,7 +1042,7 @@ color: var(--text-label);
  .modal-checkbox:checked + .modal-label-checkbox .modal-span {
     background-color: var(--hover-color);
     border: none;
-   fill: #FFFFFF;
+   fill: var(--text-color);
 } 
 
 
